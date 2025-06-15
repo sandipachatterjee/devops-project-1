@@ -1,5 +1,8 @@
 # Local .terraform directories
 .terraform/
+VM/.terraform*
+# Ignore the specific Terraform provider file
+terraform/providers/registry.terraform.io/hashicorp/google/6.39.0/darwin_arm64/terraform-provider-google_v6.39.0_x5
 
 # .tfstate files
 *.tfstate
